@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+#header{
+    height: 10%;
+    width: 100%;
+    background: black;
+}
+#valkoinen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+.sivu1{
+    border: 2px solid;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+}
+.sivu1 > div {
+    flex: 1;
+}
+table, th, td {
+    border: 1px solid;
+}
+
+.taulukko{
+    text-align: center;
+    
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+        background-color: lightgrey;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+
+.h1{
+    text-align: center;
+}
+
+.artikkeli{
+    text-align: center;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+
+#footer1{
+    color: white;
+}
+
+
